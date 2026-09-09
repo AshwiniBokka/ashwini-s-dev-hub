@@ -58,12 +58,11 @@ export const projects: Project[] = [
     github: PROJECT_GITHUB_URL,
   },
   {
-    category: "Machine Learning",
-    name: "House Price Prediction",
-    description:
-      "A machine learning regression project for predicting house prices from property-related features.",
-    tech: ["Python", "Machine Learning", "Pandas", "Scikit-learn"],
-    features: ["Feature-based regression modelling", "Data preparation and evaluation"],
+    category: "\n",
+    name: "\n",
+    description: "\n",
+    tech: ["\n", "\n", "\n", "\n"],
+    features: ["\n", "\n"],
     github: PROJECT_GITHUB_URL,
   },
   {

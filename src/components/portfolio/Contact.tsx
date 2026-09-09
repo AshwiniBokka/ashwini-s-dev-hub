@@ -35,7 +35,7 @@ export function Contact() {
                 <span className="inline-flex items-center gap-2 font-mono text-sm text-muted-foreground">
                   <Github className="size-4" /> GitHub
                 </span>
-                <span className="font-mono text-sm">ashwinibokka3 ↗</span>
+                <span className="font-mono text-sm">AshwiniBokka\u00a0↗</span>
               </a>
               <a
                 href={LINKEDIN_URL}
@@ -46,7 +46,7 @@ export function Contact() {
                 <span className="inline-flex items-center gap-2 font-mono text-sm text-muted-foreground">
                   <Linkedin className="size-4" /> LinkedIn
                 </span>
-                <span className="font-mono text-sm">ashwini-bokka ↗</span>
+                <span className="font-mono text-sm">Ashwini Bokka | LinkedIn</span>
               </a>
             </div>
           </div>
