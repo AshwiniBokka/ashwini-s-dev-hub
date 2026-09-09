@@ -30,6 +30,7 @@ export type Project = {
   tech: string[];
   features: string[];
   github: string;
+  githubLabel?: string;
   demo?: string;
 };
 
@@ -58,13 +59,13 @@ export const projects: Project[] = [
     github: PROJECT_GITHUB_URL,
   },
   {
-    category: "Machine Learning",
-    name: "House Price Prediction",
-    description:
-      "A machine learning regression project for predicting house prices from property-related features.",
-    tech: ["Python", "Machine Learning", "Pandas", "Scikit-learn"],
-    features: ["Feature-based regression modelling", "Data preparation and evaluation"],
+    category: "\n",
+    name: "\n",
+    description: "\n",
+    tech: ["\n", "\n", "\n", "\n"],
+    features: ["\n", "\n"],
     github: PROJECT_GITHUB_URL,
+    githubLabel: "\n",
   },
   {
     category: "Machine Learning",
@@ -74,6 +75,7 @@ export const projects: Project[] = [
     tech: ["Python", "Machine Learning"],
     features: ["Transaction classification", "Data-driven fraud pattern analysis"],
     github: PROJECT_GITHUB_URL,
+    githubLabel: "\n",
   },
 ];
 

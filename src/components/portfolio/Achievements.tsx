@@ -7,15 +7,15 @@ const items = [
   },
   {
     title: "Technical projects",
-    body: "Built projects spanning software architecture, IoT automation and machine learning — smart parking, smart irrigation, house price prediction and fraud detection.",
+    body: "Built projects spanning software architecture, IoT automation and machine learning — smart parking, smart irrigation and fraud detection.",
   },
   {
     title: "Hackathons & technical competitions",
-    body: "Participating in hackathons and technical competitions to build under time constraints and collaborate with new teams. [ADD DETAILS]",
+    body: "Participating in hackathons and technical competitions to build under time constraints and collaborate with new teams.\u00a0",
   },
   {
     title: "Certifications",
-    body: "Coursework and self-study certifications relevant to software development, DSA and machine learning. [ADD CERTIFICATIONS]",
+    body: "Coursework and self-study certifications relevant to software development, DSA and machine learning.",
   },
 ];
 
