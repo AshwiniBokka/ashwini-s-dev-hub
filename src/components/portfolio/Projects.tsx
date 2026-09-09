@@ -46,7 +46,7 @@ export function Projects() {
                     href={p.github}
                     className="inline-flex items-center gap-1.5 font-mono text-sm font-medium transition-colors hover:text-accent"
                   >
-                    <Github className="size-3.5" /> GitHub
+                    <Github className="size-3.5" /> {p.githubLabel ?? "GitHub"}
                   </a>
                   {p.demo ? (
                     <a

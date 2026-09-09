@@ -30,6 +30,7 @@ export type Project = {
   tech: string[];
   features: string[];
   github: string;
+  githubLabel?: string;
   demo?: string;
 };
 
@@ -64,6 +65,7 @@ export const projects: Project[] = [
     tech: ["\n", "\n", "\n", "\n"],
     features: ["\n", "\n"],
     github: PROJECT_GITHUB_URL,
+    githubLabel: "\n",
   },
   {
     category: "Machine Learning",
@@ -73,6 +75,7 @@ export const projects: Project[] = [
     tech: ["Python", "Machine Learning"],
     features: ["Transaction classification", "Data-driven fraud pattern analysis"],
     github: PROJECT_GITHUB_URL,
+    githubLabel: "\n",
   },
 ];
 
