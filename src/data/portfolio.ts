@@ -1,5 +1,5 @@
-export const GITHUB_URL = "https://github.com/ashwinibokka3";
-export const LINKEDIN_URL = "https://www.linkedin.com/in/ashwini-bokka-350551395";
+export const GITHUB_URL = "https://github.com/AshwiniBokka";
+export const LINKEDIN_URL = "https://www.linkedin.com/in/ashwini-bokka-03284a2a4";
 export const RESUME_URL = "[RESUME URL]";
 export const EMAIL = "[YOUR EMAIL]";
 export const PROJECT_GITHUB_URL = "[PROJECT GITHUB URL]";
