@@ -59,15 +59,6 @@ export const projects: Project[] = [
     github: PROJECT_GITHUB_URL,
   },
   {
-    category: "\n",
-    name: "\n",
-    description: "\n",
-    tech: ["\n", "\n", "\n", "\n"],
-    features: ["\n", "\n"],
-    github: PROJECT_GITHUB_URL,
-    githubLabel: "\n",
-  },
-  {
     category: "Machine Learning",
     name: "Fraud Detection",
     description:
