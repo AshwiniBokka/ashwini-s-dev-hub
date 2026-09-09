@@ -14,9 +14,14 @@ export function Reveal({
   return (
     <div
       ref={ref}
-      data-visible={visible}
-      style={{ transitionDelay: `${delay}ms` }}
-      className={`reveal ${className}`}
+      style={{
+        opacity: visible ? 1 : 0,
+        transform: visible ? "none" : "translateY(16px)",
+        transition:
+          "opacity .6s cubic-bezier(.22,1,.36,1), transform .6s cubic-bezier(.22,1,.36,1)",
+        transitionDelay: `${delay}ms`,
+      }}
+      className={className}
     >
       {children}
     </div>
